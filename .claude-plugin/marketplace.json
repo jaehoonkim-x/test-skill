@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "coupang-review-scraper",
+  "description": "쿠팡에서 키워드로 상품을 검색하고 각 상품 페이지를 방문하여 리뷰 수를 수집하는 자동화 플러그인",
+  "owner": {
+    "name": "김재훈"
+  },
+  "plugins": [
+    {
+      "name": "coupang-review-scraper",
+      "description": "쿠팡에서 키워드로 상품을 검색하고 각 상품 페이지를 방문하여 리뷰 수를 수집하는 자동화 플러그인",
+      "version": "0.1.0",
+      "author": {
+        "name": "김재훈"
+      },
+      "source": "./",
+      "category": "productivity",
+      "tags": ["coupang", "쿠팡", "리뷰", "스크래핑", "상품분석"]
+    }
+  ],
+  "version": "0.1.0"
+}
